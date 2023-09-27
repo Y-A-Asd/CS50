@@ -12,4 +12,5 @@ for i in range(n):
     for q in range(i+1):
         print("#", end="")
     print()
+
 # Yousof.A.Asadi(Y.A.A)11/24/2021

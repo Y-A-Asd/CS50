@@ -48,6 +48,7 @@ int main(int argc, char *argv[])
             fwrite(buff, sizeof(buff), 1, IMG);
             num++;
         }
+
         else
         {
             if (fimg == true)

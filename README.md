@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>CS50 Course Repository</h1>
+  <h1>...CS50 Course Repository...</h1>
   <img src="https://www.harvard.edu/wp-content/themes/core/assets/img/theme/branding-assets/footer-logo.svg" alt="CS50 Logo">
 </div>
 

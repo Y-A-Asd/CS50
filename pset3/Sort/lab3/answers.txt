@@ -1,0 +1,12 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It was the only algorithm that had a different time interval and also its time in regular and low frequency, so we conclude that it is Bubble sort
+
+sort2 uses: Merge Sort
+
+How do you know?: It had higher speeds in all three types and also had the same time for all three types which indicates merge sort
+
+sort3 uses: Selection Sort
+
+How do you know?: I ran the execution times of this algorithm in all three types, and these answers were the same, and it took a lot longer than the second algorithm, so we conclude that it is a selection sort.
+(The only algorithms that had the same time in both regular and irregular patterns were merge sort & selection sort, but the time of the second algorithm was much better, so sort2 is also merge sort.)

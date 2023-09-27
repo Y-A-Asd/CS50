@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+
+           document.addEventListener("DOMContentLoaded", function() {
+//PART1
+                let correct = document.querySelector(".correct");
+                correct.addEventListener("click", function() {
+                    correct.style.backgroundColor = "green";
+                    document.querySelector("#respond1").innerHTML = "Correct!";
+                });
+
+                let incorrect = document.querySelectorAll(".incorrect");
+                for (let i = 0; i < incorrect.length; i++) {
+                    incorrect[i].addEventListener("click", function() {
+                       incorrect[i].style.backgroundColor = "red";
+                       document.querySelector("#respond1").innerHTML = "Incorrect!";
+                    });
+                }
+//PART2
+                
+                document.querySelector("#see").addEventListener("click", function() {
+                    let input = document.querySelector("input");
+                    if( input.value.toLowerCase() == china )
+                    {
+                        input.backgroundColor = "green";
+                        document.querySelector("#respond2").innerHTML = "True!";
+                    }
+                    else
+                    {
+                        input.backgroundColor = "red";
+                        document.querySelector("#respond2").innerHTML = "False!";
+                    }
+                }
+           }
+
+
+
+
+
+
+        </script>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <h3>What is the most poisonous creature in the world?</h3>
+                <button class = "incorrect"> Box Jellyfish </button>
+                <button class = "incorrect"> Saw-Scaled Viper </button>
+                <button class = "incorrect"> Maricopa Harvester Ant </button>
+                <button class = "correct"> Funnel-Web Spider </button>
+                <p id ="respond1"> </p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+
+                <h3>The largest country in the world?</h3>
+                <input type = "text"></input>
+                <button id = "see"> Check! </button>
+
+                <p id = "respond2"></p>
+            </div>
+
+        </div>
+    </body>
+</html>

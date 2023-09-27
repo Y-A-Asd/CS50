@@ -1,0 +1,22 @@
+/* body style */
+body {
+    background-color: #af6;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+/* bold text style */
+b {
+    
+    font-size: 148px;
+    color: blue;
+}
+/* h2 text style */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: red;
+}

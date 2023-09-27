@@ -6,6 +6,7 @@
 int dig(long numb);
 
 int main(void)
+
 {
     int mas[] = {51, 52, 53, 54, 55};
     long y = 0;
